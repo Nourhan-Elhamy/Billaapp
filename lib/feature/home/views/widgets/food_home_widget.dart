@@ -48,7 +48,7 @@ class _FoodHomeWidgetState extends State<FoodHomeWidget> {
               )
             ],
           )
-          ,Image.asset(foods[widget.index].image,height: 90,width: 90,),
+          ,Image.asset(foods[widget.index].image,height: 60,),
           Text(foods[widget.index].title.toString(),style: TextStyle(fontWeight: FontWeight.w500,fontSize: 14),),
           Text(foods[widget.index].price.toString(),style: TextStyle(fontWeight: FontWeight.w700,fontSize: 16,color: AppColors.favoriteborder),)
 

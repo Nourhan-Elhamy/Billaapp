@@ -48,5 +48,17 @@ List <FoodModel> foods=[
       title: "Beaf Burger",
       price: "7.5\$"
   ),
-
+  FoodModel(image: AppImages.beafburger,
+      title: "Beaf Burger",
+      price: "7.5\$"),
+  FoodModel(
+      image: AppImages.pizza,
+      title: "Pizza",
+      price: "4.5\$"
+  ),
+  FoodModel(
+      image: AppImages.spicyshrimp,
+      title: "Spicy Shrimp",
+      price: "9.5\$"
+  ),
 ];

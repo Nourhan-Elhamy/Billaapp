@@ -2,6 +2,7 @@
 
 import 'package:billaapp/core/utls/app_colors.dart';
 import 'package:billaapp/core/utls/app_images.dart';
+import 'package:billaapp/feature/home/views/widgets/drawer_widget.dart';
 
 import 'package:billaapp/feature/home/views/widgets/home_screen_body.dart';
 
@@ -36,7 +37,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ,),
         centerTitle: true,
       ),
-      drawer: Drawer(),
+      drawer: Drawer(
+        child: DrawerWidget(),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (bottomIndex){
 

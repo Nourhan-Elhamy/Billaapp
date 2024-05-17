@@ -24,7 +24,6 @@ List<FoodModel> favlist =foods.where((foodModel) => foodModel.fav==true).toList(
       return Card(
         color: AppColors.containercolor,
         child: ListTile(
-
           title: Text(favlist[index].title.toString(),style: TextStyle(fontWeight: FontWeight.w500,fontSize: 14)),
           subtitle: Text(favlist[index].price.toString(),style: TextStyle(fontWeight: FontWeight.w700,fontSize: 16,color: AppColors.favoriteborder),),
           leading:  Image.asset(favlist[index].image,height: 90,width: 90,),

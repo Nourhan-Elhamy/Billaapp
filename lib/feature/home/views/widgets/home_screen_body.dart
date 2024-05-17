@@ -32,6 +32,7 @@ class _HomeScreenBodyState extends State<HomeScreenBody> {
           SliverToBoxAdapter(
             child: CustomBanner(),
           ),
+
           SliverGrid.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,crossAxisSpacing: 12,mainAxisSpacing: 12),
             itemCount: foods.length ,
             itemBuilder: (context,index){
